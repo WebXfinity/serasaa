@@ -1,0 +1,135 @@
+*{margin: 0 auto;
+padding: 0;}
+
+
+body{
+    background-color: #e80070;
+text-align: center;
+    color: white;
+}
+header>img{
+    margin-top: 20px;
+}
+section{
+
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;}
+
+.text-inicial{
+    
+}
+.text-inicial >h1{
+    width: 95%;
+    font-size: 2.5em;
+    text-align: start;
+    margin-bottom: 30px;
+}
+.text-inicial >p{
+    width: 90%;
+}
+button{background-color: #00ca43;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.consulta-cpf{
+    font-weight: bold 400;
+    font-family: sans-serif;
+    background-color: #fdadde;
+    color: black;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 14px;
+    
+
+}
+.secao-opcao{
+    width: 100%;
+   margin-top: 30px;
+   padding-top: 30px;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    color: black;
+} 
+.secao-opcao >h2{
+    margin-top: 20px;
+  
+}
+.opcao{background-color: rgb(145, 2, 90);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: start;
+width: 80%;
+    }
+  
+    .secao-opcao>button{
+        background-color: #00ca43;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    .atendentes{
+    font-family:roboto, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    width: 90%;
+    }
+    .atendentes>p{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: "Roboto", sans-serif;
+    }
+    .atendentes>img{
+        border-radius: 40%;
+    }
+
+.final{padding-bottom: 50px;
+    background-color: #aaaaaa;
+}
+.logo {
+    width: 50%;
+    margin-bottom: 20px; /* Espaço entre a imagem e as informações */
+}
+
+.informacoes {
+    display: flex;
+    width: 100%;
+    max-width: 800px; /* Limite máximo de largura para não esticar muito */
+}
+    .info-item>h3 {
+        padding-bottom: 15px;
+    }
+    .info-item>p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 10px;
+    }
+.divider {
+    width: 1px; /* Largura da listra divisória */
+    background-color: #000; /* Cor da listra divisória */
+    margin: 0 0px; /* Espaço ao redor da listra divisória */
+}
+.footer-bottom {
+    background-color: #333; /* Cor de fundo da parte inferior do footer */
+    color: #fff; /* Cor do texto da parte inferior do footer */
+    padding: 10px;
+}
+.whatsapp {
+    position: fixed; /* Mantém o ícone fixo na tela */
+    bottom: 20px; /* Espaço do fundo da tela */
+    right: 20px; /* Espaço do lado direito da tela */
+    z-index: 1000; /* Garante que o ícone fique acima de outros elementos */
+    border-radius: 50%; /* Torna o ícone arredondado (opcional) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao redor do ícone (opcional) */
+}
