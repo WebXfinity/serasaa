@@ -116,8 +116,8 @@ width: 80%;
         margin-bottom: 10px;
     }
 .divider {
-    width: 1px; /* Largura da listra divisória */
-    background-color: #000; /* Cor da listra divisória */
+    width: 1px; 
+    background-color: #000;
     margin: 0 0px; /* Espaço ao redor da listra divisória */
 }
 .footer-bottom {
@@ -132,4 +132,8 @@ width: 80%;
     z-index: 1000; /* Garante que o ícone fique acima de outros elementos */
     border-radius: 50%; /* Torna o ícone arredondado (opcional) */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao redor do ícone (opcional) */
+}
+a {
+    color: inherit; /* Remove a cor azul padrão e usa a cor do texto pai */
+    text-decoration: none; /* Remove o sublinhado dos links */
 }
